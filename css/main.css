@@ -1,0 +1,532 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", regular;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* ////////////////////////////////////////////////////////HEADER */
+
+header {
+  width: 100%;
+  background-color: #111111;
+  display: flex;
+  padding-top: 56px;
+  padding-bottom: 3px;
+  justify-content: space-around;
+}
+
+.logo {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 800;
+  font-size: 24px;
+  cursor: pointer;
+  align-content: center;
+}
+
+.topnav a {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px 16px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid #fcac45;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* /////////////////////////////////////////////////////////WELCOME */
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.welcome {
+  background: #000;
+  text-align: center;
+  padding-top: 209px;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.welcome h1 {
+  font-weight: 100;
+  font-size: 44px;
+  color: #999999;
+}
+
+.mycompany {
+  color: #fcac45;
+  font-weight: bold;
+}
+
+.welcome {
+  padding-bottom: 420px;
+}
+
+main p {
+  font-size: 20px;
+  color: #999999;
+}
+
+/* //////////////////////////////////////////////////////////// ABOUT */
+
+#aboutUs {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about {
+  display: flex;
+  padding-top: 95px;
+  padding-bottom: 101px;
+}
+.aboutText {
+  margin-left: 175px;
+}
+
+.aboutText h1 {
+  font-size: 34px;
+  display: inline-block;
+  border-bottom: 3px solid #fcac45;
+  padding-bottom: 20px;
+}
+
+.aboutText p {
+  margin: 30px 0 50px;
+  color: #5a5a5a;
+}
+
+.aboutText li {
+  color: #5a5a5a;
+  background: url(../img/mark.png) 0px no-repeat;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.mv100 {
+  min-width: 100%;
+}
+
+/* /////////////////////////////////////////////////////////////// TEAM */
+
+#ourTeam {
+  background: #000;
+  padding: 100px 0 165px;
+  color: #fff;
+  text-align: center;
+}
+
+#ourTeam h1 {
+  font-size: 44px;
+  padding-bottom: 30px;
+}
+
+#ourTeam h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.position {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.ptramText {
+  font-size: 14px;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: #fcac45;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 105px;
+}
+
+#ourTeam .photo {
+  background: #d7d7d7;
+  width: 127px;
+  height: 126px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.teamCards {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.teamCards .card {
+  margin: 0 20px;
+}
+
+/* ///////////////////////////////////////////////////////////// SERVICES */
+
+.services {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.servicesCards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 40px;
+}
+
+.services h4 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.services p {
+  font-family: "Myriad Pro", normal;
+  font-size: 14px;
+  text-align: center;
+  color: #6c6c6c;
+  margin-bottom: 105px;
+}
+
+.services h1 {
+  font-size: 44px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.services .line {
+  margin-bottom: 60px;
+}
+
+/* ///////////////////////////////////////////////////////// CLIENTS */
+
+#ourClients {
+  background-color: #000;
+  padding-top: 100px;
+  padding-bottom: 215px;
+}
+
+.clients h1 {
+  color: #fff;
+  font-weight: 100;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.clientsImg {
+  display: flex;
+  justify-content: center;
+}
+
+.clientsImg1 {
+  display: flex;
+  justify-content: center;
+}
+
+.clientsImg img {
+  margin: 30px;
+}
+
+/* /////////////////////////////////////////////////////// TESTIMONIALS */
+
+.testimonials {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 175px;
+}
+
+.testimonials h1 {
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 100;
+  padding: 100px 0 30px;
+}
+
+.testimonials p {
+  font-weight: 100;
+  font-size: 18px;
+  max-width: 930px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.work {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.work h1 {
+  font-weight: 100;
+  padding-bottom: 30px;
+}
+
+.work .line {
+  margin-bottom: 60px;
+}
+
+.work p {
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-bottom: 175px;
+}
+
+.gallery img:hover {
+  opacity: 0.9;
+}
+
+/* ///////////////////////////////////////////////////////////// CONTACT */
+
+.contact {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #636363;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact h1 {
+  color: #000;
+  font-size: 44px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact .line {
+  margin-bottom: 35px;
+}
+
+.contact p {
+  margin-bottom: 95px;
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+input,
+textarea {
+  border: 1px solid #999999;
+}
+
+.formInputs {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  height: 165px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 165px;
+  height: 40px;
+  background-color: #fcac45;
+  border: 0;
+  float: right;
+  margin-top: 30px;
+  color: #fff;
+}
+
+/* //////////////////////////////////////////////////////// FOOTER */
+
+footer {
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+footer img {
+  padding-left: 15px;
+}
+
+footer img:last-child {
+  padding-right: 0;
+}
+
+footer img:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1120px) {
+  .clientsImg {
+    flex-direction: column;
+  }
+
+  .row1 img:not(:first-child) {
+    display: none;
+  }
+  .row2 img:not(:first-child) {
+    display: none;
+  }
+  .row3 img:not(:first-child) {
+    display: none;
+  }
+
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    margin-top: -17px;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .topnav.responsive {
+    position: relative;
+    top: 50px;
+  }
+  header .topnav.responsive {
+    height: 340px;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    top: -50px;
+  }
+  .topnav.responsive a {
+    right: 0;
+    display: block;
+    text-align: end;
+  }
+
+  .welcome {
+    padding: 50px 0;
+  }
+
+  .welcome p {
+    font-size: 16px;
+  }
+
+  .welcome h1 {
+    font-size: 25px;
+  }
+
+  .mv100 {
+    max-width: 100%;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .aboutText {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .aboutText li {
+    text-align: left;
+  }
+
+  .aboutText h1 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .teamCards {
+    flex-direction: column;
+  }
+
+  .servicesCards {
+    grid-template-columns: auto auto;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .contact {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .formInputs {
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .contact p {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .clientsImg1 {
+    flex-direction: column;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonials h1 {
+    font-size: 30px;
+  }
+
+  .testimonials p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .servicesCards {
+    grid-template-columns: auto;
+  }
+}
